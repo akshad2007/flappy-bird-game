@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Flappy Bird Canvas Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="game-shell" aria-label="Flappy Bird game">
+      <canvas id="gameCanvas" aria-label="Flappy Bird canvas"></canvas>
+
+      <div id="hud" class="hud" aria-live="polite">
+        <span>Score: <strong id="scoreValue">0</strong></span>
+        <span>High Score: <strong id="highScoreValue">0</strong></span>
+      </div>
+
+      <div id="startOverlay" class="overlay visible" role="dialog" aria-modal="true">
+        <h1>Flappy Canvas</h1>
+        <p>Tap or Press Space to Start</p>
+      </div>
+
+      <div id="gameOverOverlay" class="overlay" role="dialog" aria-modal="true">
+        <h2>Game Over</h2>
+        <p>Your Score: <strong id="finalScoreValue">0</strong></p>
+        <p>Tap Restart or Press R / Space</p>
+        <button id="restartButton" type="button">Restart</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
