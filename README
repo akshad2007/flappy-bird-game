@@ -1,0 +1,107 @@
+# 🐤 Floppy Bird Game
+
+A responsive Flappy Bird–style browser game built using HTML, CSS, and JavaScript.  
+The game works smoothly on both desktop and mobile devices with keyboard and touch controls.
+
+---
+
+## 🚀 Features
+
+- Playable directly in the browser  
+- Fully responsive (mobile + desktop support)  
+- Keyboard (Spacebar) + Touch controls  
+- Smooth gravity-based physics  
+- Moving obstacle pipes  
+- Live score tracking  
+- Collision detection (pipes & ground)  
+- Restart option after Game Over  
+- High score saved using localStorage  
+- Optional sound effects (jump, score, collision)  
+- Increasing difficulty over time  
+
+---
+
+## 🎯 How to Play
+
+### Desktop
+Press **SPACEBAR** to make the bird jump.
+
+### Mobile
+Tap anywhere on the screen to jump.
+
+### Objective
+Pass through as many pipes as possible without hitting the pipes or the ground.  
+Each successful pipe pass increases your score.
+
+---
+
+## 🛠 Tech Stack
+
+- HTML5 – Structure  
+- CSS3 – Styling & responsiveness  
+- JavaScript (Vanilla JS) – Game logic & physics  
+- HTML5 Canvas API – Rendering  
+
+---
+
+## 📂 Project Structure
+
+floppy-bird/
+│
+├── index.html  
+├── style.css  
+├── script.js  
+└── README.md  
+
+---
+
+## 📱 Mobile Optimization
+
+- Uses `touchstart` event for tap controls  
+- Prevents scrolling during gameplay  
+- Responsive canvas scaling  
+- Works on Android browsers, iOS Safari, and Chrome  
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+   git clone https://github.com/your-username/floppy-bird.git  
+
+2. Navigate to the project folder:
+
+   cd floppy-bird  
+
+3. Open `index.html` in your browser.
+
+No additional dependencies required.
+
+---
+
+## 🧠 Game Logic Overview
+
+- The bird has gravity applied every frame.  
+- Pressing jump applies upward velocity.  
+- Pipes spawn at intervals with random gap positions.  
+- Collision detection checks bird vs pipes and bird vs ground.  
+- Score increases when bird successfully passes a pipe.  
+- Game states include Start, Playing, and Game Over.  
+
+---
+
+## 🔥 Future Improvements
+
+- Animated sprites  
+- Background transitions (Day/Night)  
+- Particle effects  
+- Leaderboard system  
+- Pause feature  
+- Progressive speed increase  
+
+---
+
+## 📜 License
+
+This project is open-source and free to use.
